@@ -1,7 +1,6 @@
 import HW12_Async_DATA
 import HW12_Async2
 import nest_asyncio
-nest_asyncio.apply()
 import asyncio
 import logging
 from aiogram import Bot, Dispatcher, types
@@ -9,6 +8,7 @@ from aiogram.filters.command import Command
 from aiogram.utils.keyboard import InlineKeyboardBuilder, ReplyKeyboardBuilder
 from aiogram import F
 
+nest_asyncio.apply()
 logging.basicConfig(level=logging.INFO)
 API_TOKEN = '6810339571:AAFZtqmFCkRAiVQcEZerv5QCD0uekaw7d-o'
 bot = Bot(token=API_TOKEN)
