@@ -1,5 +1,5 @@
-DB_NAME = 'quiz_bot.db'
 import aiosqlite
+DB_NAME = 'quiz_bot.db'
 
 async def get_quiz_index(user_id):
   async with aiosqlite.connect(DB_NAME) as db:
