@@ -7,6 +7,9 @@ And nickname:
 @Test1604_Bot
 
 So far the bot only supports the following commands:
+
 /start - Start, the bot will only greet you
+
 /quiz or Начать игру - Start taking a quiz
+
 /result - Get your last result
